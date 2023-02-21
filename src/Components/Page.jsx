@@ -3,15 +3,15 @@ import './page.css'
 import './services.css'
  import brands from '../assets/brands.png'
 import img2 from '../assets/img2 (1).png'
-// import img1 from '../assets/head1.png'
-import img1 from '../assets/services-hero.png'
+import img1 from '../assets/head1.png'
+// import img1 from '../assets/services-hero.png'
 import img3 from '../assets/text.png'
 import card from '../assets/card1.png'
 function Page() {
     return (
         <>
             {/* Hero section starts */}
-            {/* <div className="container-fluid hero-section">
+            <div className="container-fluid hero-section">
                 <div className="row justify-content-md-center">
                     <div className="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                         <h1>Online Doctor
@@ -26,10 +26,10 @@ function Page() {
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
 
             {/* hero section */}
-      <div className="container-fluid services-main">
+      {/* <div className="container-fluid services-main">
         <div className="row">
           <div className="col-12 col-md-6 col-lg-6 col-sm-12 services-left">
             <h6>OUR SERVICES</h6>
@@ -45,7 +45,7 @@ function Page() {
         </div>
         <svg viewBox="0 0 500 150" preserveAspectRatio="none" className='svg'><path d="M0.00,49.98 C149.99,150.00 353.83,62.66 501.12,22.20 L500.00,150.00 L0.00,150.00 Z" ></path></svg>
     
-      </div>
+      </div> */}
 
             {/* featured section starts */}
             <div className="container-fluid featured-section">

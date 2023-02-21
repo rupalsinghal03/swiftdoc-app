@@ -1,7 +1,8 @@
 import React from 'react'
 import './navbar.css'
 import img1 from '../assets/facebook.png'
-import logo from '../assets/logo (1).png'
+// import logo from '../assets/logo (1).png'
+import logo from '../assets/swiftlaw.png'
 import linkedin from '../assets/linked-icon.png'
 import instagram from '../assets/insta.png'
 
@@ -16,9 +17,9 @@ function Navbar() {
                                     <span className="navbar-toggler-icon"></span>
                                 </button>
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <ul className="navbar-nav mb-2 mb-lg-0">
                                         <li className="nav-item">
-                                            <a className="nav-link " aria-current="page" href="/">Home</a>
+                                            <a className="nav-link " aria-current="page" href="/">HOME</a>
                                         </li>
                                         <li className="nav-item">
                                             <a className="nav-link " aria-current="page" href="/about">ABOUT</a>

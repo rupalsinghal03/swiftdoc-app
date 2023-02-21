@@ -24,6 +24,10 @@
 .navbar .nav-logo img {
     height: 50px;
     width: 150px;
+    /* background-color: #4b4bba; */
+    background: linear-gradient(33deg, rgba(1,108,178,1) 49%, rgba(25,213,211,1) 89%);
+    padding: 7px;
+    border-radius: 10px;
 }
 
 .navbar .nav-item{
@@ -49,12 +53,13 @@
     text-transform: none;
 }
 .navbar #navbarSupportedContent{
-    margin-left: 234px;
+    /* margin-left: 234px; */
+    justify-content: flex-end;
 }
 .navbar .navbar-nav .nav-link{
     color:  rgb(1, 108, 178);
-    margin-right: 42px;
 }
+
 .navbar .nav-item button:hover{
     background: linear-gradient(33deg, rgba(1,108,178,1) 49%, rgba(25,213,211,1) 89%);
     box-shadow: none;
@@ -76,4 +81,39 @@
     color: white;
     padding: 6px;
     border-radius: 50%;
+}
+.navbar .navbar-nav .nav-link{
+    margin-right: 20px !important;
+    
+}
+@media (max-width:767px) {
+    .navbar{
+        padding-left:20px ;
+        padding-right:20px ;
+    }
+
+    .navbar .nav-item button{
+        display: none;
+    }
+    .navbar .social-icon{
+        display: none;
+    }
+    .navbar-collapse {
+    text-align: center;
+    margin-left: 0 !important;
+    }
+}
+@media (max-width:959px) {
+    .navbar .nav-item button{
+        display: none;
+    }
+    .navbar .social-icon{
+        display: none;
+    }
+    .navbar-collapse {
+    text-align: center;
+    margin-left: 0 !important;
+    }
+   
+
 }
