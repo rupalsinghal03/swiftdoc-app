@@ -20,7 +20,7 @@
     height: 200px;
     top: 76px;
     right: -1px;
-    height: 40%;
+    height: 56%;
 }
 .services-main svg{
    height: 20%; 
@@ -259,6 +259,10 @@ p span {
     margin: 0;
 }
 
+.nav-curve2{
+    height: 150px; overflow: hidden; position: absolute; margin-top: -98px; width: 100%; z-index: 4;
+}
+
 @media (min-width: 1200px) {
     .para-div {
         flex-grow: 0;
@@ -299,6 +303,9 @@ p span {
     .deseases-section {
     width: 100%;
     }
+    .nav-curve2{
+        margin-top: -195px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -316,6 +323,9 @@ p span {
     .cover-points{
         /* display: flex; */
         flex-wrap: nowrap;
+    }
+    .nav-curve2{
+        margin-top: -180px;
     }
 }
 @media  (min-width: 1024px){

@@ -7,7 +7,7 @@ function Services() {
     <>
       {/* hero section */}
       <div className="container-fluid services-main">
-        <div className="row">
+        <div className="row pb-md-4">
           <div className="col-12 col-md-6 col-lg-6 col-sm-12 services-left">
             <h6>OUR SERVICES</h6>
             <h2>Experience the evolution of convenient healthcare</h2>
@@ -20,8 +20,9 @@ function Services() {
             </div>
           </div>
         </div>
-        <svg viewBox="0 0 500 150" preserveAspectRatio="none" className='svg'><path d="M0.00,49.98 C149.99,150.00 353.83,62.66 501.12,22.20 L500.00,150.00 L0.00,150.00 Z" ></path></svg>
       </div>
+
+      <div className="nav-curve2"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{height: "100%", width: "100%"}}><path d="M0.00,49.98 C149.99,150.00 353.83,62.66 501.12,22.20 L500.00,150.00 L0.00,150.00 Z" style={{stroke: "none", fill: "#ffffff"}}></path></svg></div>
 
       {/* about swiftdoc section */}
       <div className="container-fluid">

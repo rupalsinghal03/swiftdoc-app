@@ -14,11 +14,12 @@ function Page() {
             <div className="container-fluid hero-section">
                 <div className="row justify-content-md-center">
                     <div className="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                        <h1>Online Doctor
-                            Consultations</h1>
+                        <h1>Online Doctor Consultations</h1>
                         <h4>DIRECT FROM YOUR <b>PHONE</b> OR <b>DESKTOP </b></h4>
                         <p>See a Registered Australian Doctor for diagnosis, treatment, <br /> prescriptions, medical certificates, referrals, pathology, <br /> imaging and more...</p>
+                        <div className="hero-btn">
                         <button>BOOK AN APPOINTMENT</button>
+                        </div>
                     </div>
                     <div className="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                         <div className="image">
@@ -48,6 +49,8 @@ function Page() {
       </div> */}
 
             {/* featured section starts */}
+
+            <div className="nav-curve"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{height: "100%", width: "100%"}}><path d="M0.00,49.98 C149.99,150.00 353.83,62.66 501.12,22.20 L500.00,150.00 L0.00,150.00 Z" style={{stroke: "none", fill: "#ffffff"}}></path></svg></div>
             <div className="container-fluid featured-section">
                                      <p>As featured in</p>
                         <div className="img-div">

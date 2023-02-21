@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 .hero-section {
     background: linear-gradient(33deg, #016cb2 49%, #19d5d3 89%);
     overflow: hidden;
@@ -8,10 +9,8 @@
     width: 100%;
     margin: 0;
     z-index: 2;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 30%;
-    padding-bottom: 50px;
-    padding-top: 200px;
+    padding-bottom: 80px;
+    padding-top: 170px;
     padding-left: 150px;
 
 }
@@ -302,7 +301,9 @@
 .brands-section .brands-para {
     padding: 8px;
 }
-
+.nav-curve{
+    height: 150px; overflow: hidden; position: absolute; margin-top: -98px; width: 100%; z-index: 4;
+}
 
 @media (max-width:767px) {
     .featured-section p{
@@ -318,11 +319,31 @@
     }
     .hero-section .image img{
         width: 85%;
-    padding-top: 20px;
+    padding-top: 50px;
     }
     .services-main svg {
     /* bottom: 22% !important; */
     display: none;
+    }
+    .hero-section p,h4,h1{
+        text-align: center !important;
+    }
+    .hero-section .hero-btn{
+        text-align: center;
+    }
+    .hero-section{
+        text-align: center;
+
+    }
+    .hero-section p{
+        margin-bottom: 28px !important;
+    }
+    .hero-section .image img{
+        width: 55% !important;
+    }
+    .cards-section h3{
+        font-size: 30px !important;
+        font-weight: 700;
     }
 }
 @media (min-width: 768px) and (max-width: 1024px){

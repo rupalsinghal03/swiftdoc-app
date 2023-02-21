@@ -27,6 +27,8 @@ function Footer() {
                     </div>
                </div>
 
+               <div className="footer-curve"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{height: "100%", width: "100%"}}><path d="M0.00,49.98 C149.99,150.00 353.83,62.66 501.12,22.20 L500.00,150.00 L0.00,150.00 Z" style={{stroke: "none", fill: "#3260a4"}}></path></svg></div>
+
                 <div className="inner2">
                         <div className="foo-image">
                             <img src={foo} alt="foo" />
