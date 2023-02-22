@@ -263,6 +263,23 @@ p span {
     height: 150px; overflow: hidden; position: absolute; margin-top: -98px; width: 100%; z-index: 4;
 }
 
+.services-main .right-div img{
+    object-fit: cover;
+    opacity: 1;
+    transform: translateZ(0);
+    transition: opacity .25s linear;
+    will-change: opacity;
+}
+.lower-div {
+    position: relative;
+    padding-bottom: 20vh;
+    padding-top: 15vh;
+    background-color: #fff;
+}
+.lower-div .right-div{
+    max-height: 100%;
+}
+
 @media (min-width: 1200px) {
     .para-div {
         flex-grow: 0;

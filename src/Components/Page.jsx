@@ -1,7 +1,7 @@
 import React from 'react'
 import './page.css'
 import './services.css'
- import brands from '../assets/brands.png'
+import brands from '../assets/brands.png'
 import img2 from '../assets/img2 (1).png'
 import img1 from '../assets/head1.png'
 // import img1 from '../assets/services-hero.png'
@@ -18,7 +18,7 @@ function Page() {
                         <h4>DIRECT FROM YOUR <b>PHONE</b> OR <b>DESKTOP </b></h4>
                         <p>See a Registered Australian Doctor for diagnosis, treatment, <br /> prescriptions, medical certificates, referrals, pathology, <br /> imaging and more...</p>
                         <div className="hero-btn">
-                        <button>BOOK AN APPOINTMENT</button>
+                            <button>BOOK AN APPOINTMENT</button>
                         </div>
                     </div>
                     <div className="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
@@ -30,7 +30,7 @@ function Page() {
             </div>
 
             {/* hero section */}
-      {/* <div className="container-fluid services-main">
+            {/* <div className="container-fluid services-main">
         <div className="row">
           <div className="col-12 col-md-6 col-lg-6 col-sm-12 services-left">
             <h6>OUR SERVICES</h6>
@@ -50,22 +50,22 @@ function Page() {
 
             {/* featured section starts */}
 
-            <div className="nav-curve"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{height: "100%", width: "100%"}}><path d="M0.00,49.98 C149.99,150.00 353.83,62.66 501.12,22.20 L500.00,150.00 L0.00,150.00 Z" style={{stroke: "none", fill: "#ffffff"}}></path></svg></div>
+            <div className="nav-curve"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{ height: "100%", width: "100%" }}><path d="M0.00,49.98 C149.99,150.00 353.83,62.66 501.12,22.20 L500.00,150.00 L0.00,150.00 Z" style={{ stroke: "none", fill: "#ffffff" }}></path></svg></div>
             <div className="container-fluid featured-section">
-                                     <p>As featured in</p>
-                        <div className="img-div">
-                            <img src={img3} alt="" style={{ maxWidth: "100%",height: "auto" }} />
-                        </div>
+                <p>As featured in</p>
+                <div className="img-div">
+                    <img src={img3} alt="" style={{ maxWidth: "100%", height: "auto" }} />
+                </div>
             </div>
 
             {/* cards section here */}
             <div className="container-fluid cards-section">
-                    <h3>Making health easier</h3>
-                    <p>Interact with our online doctors in 4 easy steps.</p>
-                    <div className="cards-div row">
+                <h3>Making health easier</h3>
+                <p>Interact with our online doctors in 4 easy steps.</p>
+                <div className="cards-div row">
                     <div className="card col-md-6 col-3 col-sm-12">
                         <div>
-                            <img src={card} class="card-img-top" alt="..." />
+                            <img src={card} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5>Choose a service</h5>
                                 <p className="card-text">Choose a service to get started</p>
@@ -74,7 +74,7 @@ function Page() {
                     </div>
                     <div className="card col-md-6 col-3 col-sm-12">
                         <div >
-                            <img src={card} class="card-img-top" alt="..." />
+                            <img src={card} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5>Choose a doctor</h5>
                                 <p className="card-text">After choosing a service, choose one of our Australia based online doctors</p>
@@ -83,27 +83,31 @@ function Page() {
                     </div>
                     <div className="card col-md-6 col-3 col-sm-12">
                         <div>
-                            <img src={card} class="card-img-top" alt="..." />
+                            <img src={card} className="card-img-top" alt="..." />
                             <div className="card-body">
-                            <h5>Choose a time</h5>
+                                <h5>Choose a time</h5>
                                 <p className="card-text">Choose a time convenient for you</p>
                             </div>
                         </div>
                     </div>
                     <div className="card col-md-6 col-3 col-sm-12">
                         <div>
-                            <img src={card} class="card-img-top" alt="..." />
+                            <img src={card} className="card-img-top" alt="..." />
                             <div className="card-body">
-                            <h5>Have your video consultation</h5>
+                                <h5>Have your video consultation</h5>
                                 <p className="card-text">Be seen by one of our expert doctors at a time that suits you from anywhere in Australia.</p>
                             </div>
                         </div>
                     </div>
-                    </div>
-                    <div className="button-div">
-                        <button>BOOK AN APPOINTMENT</button>
-                    </div>
+                </div>
+                <div className="button-div">
+                    <button>BOOK AN APPOINTMENT</button>
+                </div>
             </div>
+
+
+
+
 
             {/* services section here */}
             {/* <div className="container services-section">
@@ -128,19 +132,65 @@ function Page() {
                 </div>
             </div> */}
 
+            {/* copied section */}
+
+            {/* <div className="container-fluid services-main lower-div">
+                <div className="row pb-md-4">
+                    <div className="col-12 col-md-6 col-lg-6 col-sm-12 services-left">
+                        <h2>Doctor consultations have
+                            never been more convenient.</h2>
+                        <h5>No travel hassles or delays</h5>
+                        <div className="services-btn-div">
+                            <button>LEARN MORE ABOUT OUR SERVICES</button>
+                        </div>
+                    </div>
+
+                    <div className="col-12 col-md-6 col-lg-6 col-sm-12">
+                        <div className="right-div">
+                            <img src={img2} alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div> */}
+
+
+
+            <div className="container-fluid info-main">
+                <div className="row pb-md-4">
+                    <div className="col-12 col-md-12 col-lg-5 col-sm-12 info-left">
+                        {/* <h6>OUR SERVICES</h6> */}
+                        <h2>Doctor consultations have
+                            never been more convenient.</h2>
+                        <p>No travel hassles or delays</p>
+                        <div className="info-btn-div">
+                            <button>LEARN MORE ABOUT OUR SERVICES</button>
+                        </div>
+                    </div>
+
+                    <div className="col-12 col-md-12 col-lg-7 col-sm-12">
+                        <div className="info-right">
+                            <img src={img2} alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
             {/* brands section */}
             <div className="container brands-section">
                 <div className="row">
                     <div className="col">
                         <div className="brands-head">
-                        <h4>Trusted By</h4>
+                            <h4>Trusted By</h4>
                         </div>
                         <div className="brands-img">
-                            <img src={brands} alt="" style={{ maxWidth: "100%" }}/>
+                            <img src={brands} alt="" style={{ maxWidth: "100%" }} />
                         </div>
                         <div className="brands-para">
-                        <p>And thousands of other pharmacies nationwide. <br />
-                            We are registered with Argus, Medisecure and Rural Health Alliance.</p>
+                            <p>And thousands of other pharmacies nationwide. <br />
+                                We are registered with Argus, Medisecure and Rural Health Alliance.</p>
                         </div>
                     </div>
                 </div>
